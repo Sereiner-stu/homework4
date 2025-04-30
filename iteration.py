@@ -33,7 +33,7 @@ for iter in range(max_iter):
 else:
     print("未收敛")
 
-# 可视化代码保持不变
+# 可视化代码
 x = np.linspace(0, Lx, nx)
 y = np.linspace(0, Ly, ny)
 X, Y = np.meshgrid(x, y)
